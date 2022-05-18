@@ -1,0 +1,35 @@
+h1{
+    color: #F4DCDC;
+    font-family: 'Fjord One', serif;
+    font-size: 22px;
+    font-weight: 200;
+}
+body{
+    background-color: #736363;
+}
+img{
+    height:755.78px; 
+    width:593.39px;
+    position: absolute;
+    left: 28%;
+    top: -6%;
+}
+h2{
+    color: #FFFFFF;
+    font-family: 'Licorice', cursive;
+    font-size: 150px;
+    font-weight: 400;
+    position: absolute;
+    left: 39%;
+    top: 36%; 
+}
+p{
+    color: #F4DCDC;
+    font-family: 'Fjord One', serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    left: 45%;
+    top: 90%;
+  
+}
