@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hide Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fjord+One&family=Licorice&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root">
-      <h1><center>¿Te gustaría planear una fiesta, contar un secreto, o simplemente enviar un mensaje sin el temor de que alguien pueda leerlo?</center></h1>
-    </div>
-    <div align="center">
-      <img src="https://svgsilh.com/svg/154684.svg" alt="Imagen">
-    </div>
-    <h2>Hide</h2>
-    <p>About | Start</p>
-    <script src="index.js" type="module"></script>
-  </body>
-</html>
 
+<head>
+  <meta charset="utf-8">
+  <title>Hide Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjord+One&family=Licorice&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="titulo">
+    <h1>¿Te gustaría planear una fiesta, contar un secreto, o simplemente enviar un mensaje sin el temor de que
+        alguien pueda leerlo?
+    </h1>
+  </div>
+
+    <section class="candado1">
+      <img src="https://svgsilh.com/svg/154684.svg" alt="Candado 1">
+      <h2>Hide</h2>
+      <div id="enlaces"><a href="http://127.0.0.1:5500/src/index.html#About">About</a> | <a href="http://127.0.0.1:5500/src/index.html#Start">Start</a></div>
+    </section>
+    
+        
+    <hr id="About">
+
+    <section class="candado2">
+      <img id="candado2" src="https://svgsilh.com/svg/154684.svg" alt="Candado 2">
+      <p> Hide, es una herramienta que te ayuda a crear mensajes cifrados usando el metodo de cifrado Cesar. un tipo de cifrado por sustitucion.</p>
+      <a href="http://127.0.0.1:5500/src/index.html#Start">Start</a>
+    </section>
+          
+  
+    
+    <hr id="Start">
+
+  
+    <section class="inicio">
+    
+    <p> Introduce el texto que te gustaria cifrar o descifrar:</p>
+    <input type="text" id="mensaje1">
+    
+    <img id="llave" src="https://svgsilh.com/svg/309744.svg" alt="Llave">
+    
+    <p>Ingresa una clave de cifrado (número)</p>
+
+    <input type="number" id="desplazamientos" min="1" max="100">
+
+
+    <button id="cifrar">Cifrar</button>
+    <button id="descifrar">Descifrar</button>
+
+    <p>Resultado:</p>
+    <div><input type="text" id="resultado"></div>
+
+    <button id="limpiar">Limpiar</button>
+    <button id="copiar">Copiar</button>
+
+  </section>
+
+   <div><a href="http://127.0.0.1:5500/src/index.html#titulo"><img id="casita" src="casita.png" alt="Inicio"></a></div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

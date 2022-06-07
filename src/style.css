@@ -1,4 +1,6 @@
 h1{
+    position: sticky;
+    text-align: center;
     color: #F4DCDC;
     font-family: 'Fjord One', serif;
     font-size: 22px;
@@ -7,29 +9,129 @@ h1{
 body{
     background-color: #736363;
 }
-img{
+ 
+.candado1{
     height:755.78px; 
     width:593.39px;
-    position: absolute;
-    left: 28%;
-    top: -6%;
+    overflow: hidden;
+    position: relative;
+    margin: -100px auto;
 }
-h2{
+
+.candado1 img {
+    height:100%; 
+    width:100%;
+}
+
+.candado1 h2{
     color: #FFFFFF;
     font-family: 'Licorice', cursive;
     font-size: 150px;
     font-weight: 400;
     position: absolute;
-    left: 39%;
-    top: 36%; 
+    top: 35%;
+    left: 25%;
 }
-p{
+
+#enlaces{
     color: #F4DCDC;
     font-family: 'Fjord One', serif;
+    text-align: center;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 200;
     position: absolute;
+    z-index: 100;
+    top: 82%;
+    left: 20%;
+    right:20%;
+} 
+.candado2{
+    height:755.78px; 
+    width:593.39px;
+    overflow: hidden;
+    position: relative;
+    margin: -100px auto;
+}
+
+.candado2 img {
+    height:100%; 
+    width:100%;
+}
+
+.candado2 p{
+    color: #F4DCDC;
+    font-family: 'Fjord One', serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    right:20%;
+}
+
+.candado2 a{
+    color: #F4DCDC;
+    font-family: 'Fjord One', serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+    position: absolute;
+    z-index: 100;
+    top: 82%;
     left: 45%;
-    top: 90%;
-  
+    right:60%;
+}
+
+
+.inicio{
+    height:350px; 
+    width:600px;
+    overflow: visible;
+    position: relative;
+    margin: 80px auto;
+}
+    
+
+.inicio p{
+    color: #F4DCDC;
+    font-family: 'Fjord One', serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;}
+
+
+#mensaje1 {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 13%;
+    left: 24%;
+      
+
+}
+
+.inicio img{
+    width: 100px;
+    transform:rotate(-132deg);
+    display: flex;
+    align-items: center;
+
+    
+}
+
+#resultado {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 88%;
+    left: 24%;
+}
+
+#casita{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0px auto;
+
 }
