@@ -85,7 +85,7 @@ body{
 
 
 .inicio{
-    height:350px; 
+    height:400px; 
     width:600px;
     overflow: visible;
     position: relative;
@@ -93,39 +93,135 @@ body{
 }
     
 
-.inicio p{
+.inicio #p1{
     color: #F4DCDC;
     font-family: 'Fjord One', serif;
     text-align: center;
     font-size: 22px;
-    font-weight: 400;}
+    font-weight: 400;
+}
 
 
 #mensaje1 {
     width: 300px;
     height: 100px;
+    border-radius: 20px;
+    border: 0;
     position: absolute;
-    top: 13%;
+    top: 12%;
     left: 24%;
-      
-
+}
+.inicio #p2{
+    color: #F4DCDC;
+    font-family: 'Fjord One', serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    position:relative;
+    top:29%;
 }
 
 .inicio img{
-    width: 100px;
+    width: 75px;
     transform:rotate(-132deg);
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 46%;
+    left: 36%;
+}
 
-    
+.inicio #desplazamientos{
+    width: 45px;
+    position: absolute;
+    top: 53%;
+    left: 55%;
+}
+
+.inicio #cifrar{
+    position: absolute;
+    top: 65%;
+    left: 31%;
+    background: #050505;
+    border-radius: 5px;
+    font-family: 'Fjord One', serif;
+    font-size: 16px;
+    color: #F4DCDC;
+}
+
+#cifrar:hover{
+    background: #F4DCDC;
+    color: #020202;
+    border:0;
+}
+
+.inicio #descifrar{
+    position: absolute;
+    top: 65%;
+    left: 56%;
+    background: #050505;
+    border-radius: 5px;
+    font-family: 'Fjord One', serif;
+    font-size: 16px;
+    color: #F4DCDC;
+}
+
+#descifrar:hover{
+    background: #F4DCDC;
+    color: #020202;
+    border:0;
+}
+
+.inicio #p3{
+    color: #F4DCDC;
+    font-family: 'Fjord One', serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    position:relative;
+    top:52%;
 }
 
 #resultado {
     width: 300px;
     height: 100px;
+    border-radius: 20px;
+    border: 0;
     position: absolute;
-    top: 88%;
+    top: 85%;
     left: 24%;
+}
+
+.inicio #limpiar{
+    position: relative;
+    top: 79%;
+    left: 30%;
+    background: #050505;
+    border-radius: 5px;
+    font-family: 'Fjord One', serif;
+    font-size: 16px;
+    color: #F4DCDC;
+}
+
+#limpiar:hover{
+    background: #F4DCDC;
+    color: #020202;
+    border:0;
+}
+
+.inicio #copiar{
+    position: relative;
+    top: 79%;
+    left: 45%;
+    background: #050505;
+    border-radius: 5px;
+    font-family: 'Fjord One', serif;
+    font-size: 16px;
+    color: #F4DCDC;
+}
+
+#copiar:hover{
+    background: #F4DCDC;
+    color: #020202;
+    border:0;
 }
 
 #casita{
@@ -133,5 +229,6 @@ body{
     height: 60px;
     display: block;
     margin: 0px auto;
+    
 
 }

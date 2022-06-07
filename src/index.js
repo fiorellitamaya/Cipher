@@ -3,6 +3,7 @@ import cipher from './cipher.js';
 function cifrar(){
 let mensaje = document.getElementById("mensaje1").value;
 let desplazamiento = parseInt(document.getElementById("desplazamientos").value);
+//console.log(typeof.desplazamiento)
 document.getElementById("resultado").value = cipher.encode(desplazamiento, mensaje)
 }
 
@@ -26,8 +27,7 @@ document.getElementById("limpiar").addEventListener('click',limpiar)
 function copiar(){
 let contenido = document.getElementById("resultado");
 contenido.select()
-//Es inseguro
-//document.execCommand("copy")
+//document.execCommand("copy") <-- No se suele usar porque no es seguro.
 navigator.clipboard.writeText(contenido.value)
 }
 document.getElementById("copiar").addEventListener('click',copiar)
