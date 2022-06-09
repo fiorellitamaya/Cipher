@@ -58,6 +58,11 @@ body{
     width:100%;
 }
 
+span{
+    font-family: 'Licorice', cursive;
+    font-size: 30px;
+
+}
 .candado2 p{
     color: #F4DCDC;
     font-family: 'Fjord One', serif;

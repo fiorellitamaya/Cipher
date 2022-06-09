@@ -39,8 +39,7 @@ aplicación en el sistema ROT13.
 
 ## 2. Proyecto 
 
-<p aling="center">
-<img src="Hide.png" width="150"></p>
+<img src="Hide.png" width="150">
 
 Hide es una herramienta o aplicación web que te permite cifrar cualquier mensaje para que lo puedas enviar sin el temor que alguien más lo pueda leer.
 ¿Quieres planear una fiesta? O quizás ¿Contar un secreto? Hide te puede ayudar. Los usuarios de Hide son personas de cualquier tipo que quieren cifrar un mensaje para que no cualquier persona pueda leerlo. Pueden usar Hide para planear la fiesta de su novix, para contar un secreto a su mejxr amigx, para compartir una clave, etc
@@ -50,6 +49,9 @@ Hide es una herramienta o aplicación web que te permite cifrar cualquier mensaj
 Pude identificar las historias de Usuario y crear soluciones para cumplirlas.
 
 ### Prototipo 🚀
+
+https://fiorellitamaya.github.io/LIM018-cipher/src/
+
 El prototipo de la página tiene un diseño sencillo pero llamativo visualmente. Use Figma para poder diseñar este proyecto.
 
 ![Protipo figma](/prototipo.png)
@@ -66,11 +68,11 @@ Estos son los objetivos estudiados.
 - [X] *Uso de HTML semántico*
   
 ### CSS
-- [ ] *Uso de selectores de CSS*
+- [X] *Uso de selectores de CSS*
 - [ ] *Modelo de caja (box model): borde, margen, padding*
 
 ### Web APIs
-- [ ] *Uso de selectores del DOM*
+- [X] *Uso de selectores del DOM*
 - [ ] *Manejo de eventos del DOM (listeners, propagación, delegación)*
 - [ ] *Manipulación dinámica del DOM*
 
@@ -78,19 +80,19 @@ Estos son los objetivos estudiados.
 - [X] *Tipos de datos primitivos*
 - [X] *Strings (cadenas de caracteres)*
 - [X] *Variables (declaración, asignación, ámbito)*
-- [ ] *Uso de condicionales (if-else, switch, operador ternario, lógica booleana)*
+- [X] *Uso de condicionales (if-else, switch, operador ternario, lógica booleana)*
 - [X] *Uso de bucles/ciclos (while, for, for..of)*
-- [ ] *Funciones (params, args, return)*
+- [X] *Funciones (params, args, return)*
 - [ ] *Pruebas unitarias (unit tests)*
 - [ ] *Módulos de ECMAScript (ES Modules)*
 - [ ] *Uso de linter (ESLINT)*
 - [ ] *Uso de identificadores descriptivos (Nomenclatura y Semántica)*
 
 ### Control de Versiones (Git y GitHub)
-- [ ] *Git: Instalación y configuración*
-- [ ] *Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)*
+- [X] *Git: Instalación y configuración*
+- [X] *Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)*
 - [ ] *GitHub: Creación de cuenta y repos, configuración de llaves SSH*
-- [ ] *GitHub: Despliegue con GitHub Pages*
+- [X] *GitHub: Despliegue con GitHub Pages*
 
 ### user-centricity
 - [X] *Diseñar un producto o servicio poniendo a la usuaria en el centro*
